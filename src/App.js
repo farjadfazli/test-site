@@ -3,11 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const perfData = window.performance.timing;
-  console.log(perfData)
-  const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
-  const pageRenderTime = perfData.domComplete - perfData.domLoading
-  console.log('Page Load Time: ' + pageLoadTime + '\nPage Render Time: ' + pageRenderTime)
   return (
     <div className="App">
       <header className="App-header">
